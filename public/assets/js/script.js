@@ -1,5 +1,4 @@
 (function ($) {
-  "use strict"; // Start of use strict
 
   $(document).ready(function () {
 
@@ -13,17 +12,17 @@
 
 
     if (blusherBodyID) {
-      blusherBodyID.style.backgroundImage = 'url(../assets/img/Image-02.jpg)';
+      blusherBodyID.style.backgroundImage = 'url(./assets/img/Image-02.jpg)';
     } else if (mascaraBodyID) {
-      mascaraBodyID.style.backgroundImage = 'url(../assets/img/Image-04.jpg)';
+      mascaraBodyID.style.backgroundImage = 'url(./assets/img/Image-04.jpg)';
     } else if (hairBodyID) {
-      hairBodyID.style.backgroundImage = 'url(../assets/img/Image-06.jpg)';
+      hairBodyID.style.backgroundImage = 'url(./assets/img/Image-06.jpg)';
     } else if (perfumeBodyID) {
-      perfumeBodyID.style.backgroundImage = 'url(../assets/img/Image-05.jpg)';
+      perfumeBodyID.style.backgroundImage = 'url(./assets/img/Image-05.jpg)';
     } else if (brushesBodyID) {
-      brushesBodyID.style.backgroundImage = 'url(../assets/img/Image-03.jpg)';
+      brushesBodyID.style.backgroundImage = 'url(./assets/img/Image-03.jpg)';
     } else {
-      indexBodyID.style.backgroundImage = 'url(../assets/img/Image-01.jpg)';
+      indexBodyID.style.backgroundImage = 'url(./assets/img/Image-01.jpg)';
     }
 
 
