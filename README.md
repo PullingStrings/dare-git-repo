@@ -58,3 +58,4 @@ $ npm run start
 
 I want to fix the tear drops, and maybe just have them full css
 I would also like to fix the responsiveness, I just need more times.
+Oh, also the overlay on the background images, I need a bit more time to figure out how to place that, was thinking maybe I should just make the pictures darkder with PS but I wanted to push and see if this can either be done with filter or background color overly some how.
