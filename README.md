@@ -56,6 +56,7 @@ $ npm run start
 
 ## Things I would love to have more time to address
 
-I want to fix the tear drops, and maybe just have them full css
-I would also like to fix the responsiveness, I just need more times.
-Oh, also the overlay on the background images, I need a bit more time to figure out how to place that, was thinking maybe I should just make the pictures darkder with PS but I wanted to push and see if this can either be done with filter or background color overly some how.
+- I want to fix the tear drops, and maybe just have them full css
+- I would also like to fix the responsiveness, I just need more times.
+- Oh, also the overlay on the background images, I need a bit more time to figure out how to place that, was thinking maybe I should just make the pictures darkder with PS but I wanted to push and see if this can either be done with filter or background color overly some how.
+- Also one more thing, the checkboxes, I have to figure a way out a why to custom it to my fitting.
