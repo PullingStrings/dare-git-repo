@@ -53,3 +53,8 @@ $ npm run start
 * [Bootstrap 4](https://getbootstrap.com/)
 * [Gulp 4](https://gulpjs.com/)
 * [Sass](https://sass-lang.com/)
+
+## Things I would love to have more time to address
+
+I want to fix the tear drops, and maybe just have them full css
+I would also like to fix the responsiveness, I just need more times.
