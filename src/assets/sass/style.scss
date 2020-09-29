@@ -1,0 +1,306 @@
+@import "imports.scss";
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+
+    #blusher, #hair, #mascara, #perfume, #brushes {
+      background-size: contain !important;
+      main section {
+        height: 20% !important;
+        .text-image {
+          margin: 0 auto !important;
+           h1 {
+             font-size: 26px !important;
+           }
+        }
+      }
+    }
+
+    .navbar-light .navbar-toggler {
+      color: rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+      background-color: #282828;
+    }
+    .navbar {
+      background-color: #ffffff00 !important;
+      opacity: 1 !important;
+    }
+
+    .dropOne, .dropTwo, .dropThree, .dropFour, .dropFive {
+      height: 50px !important;
+      width: 50% !important;
+    }
+    .grid-container {
+      gap: 1px 1px !important;
+    }
+
+}
+
+body {
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #3b3b53;
+  background-color: $body-color;
+  height: 100%;
+
+}
+
+#blusher, #hair, #mascara, #perfume, #brushes, #index {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $white;
+}
+
+// html {
+//   position: relative;
+//   min-height: 100%;
+// }
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family;
+}
+
+p {
+  font-size: 14px;
+  color: #757679;
+}
+
+.scroll-container{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.flex-basis-auto {
+  -webkit-flex-basis: auto;
+  -moz-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+//blusher accodicn
+
+.fa, .fas {
+  float: right;
+}
+
+.mb-0, .my-0 {
+  margin-bottom: 0 !important;
+  color: #5F6062;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.card {
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.card-header {
+  background-color: $white;
+  padding: 2.75rem 1.25rem;
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.card-body {
+  padding: 2.25rem;
+  background-color: #E6E7E9;
+}
+//buttons
+
+.btn-primary {
+  border-radius: 4px;
+  background-color: #DE886A;
+  padding: 20px;
+  border-color: #E6E7E9;
+}
+
+.btn-primary:hover {
+  background-color: $white;
+  color: #DE886A;
+  border-color: #E6E7E9
+}
+
+.btn-disabled {
+  color: $white;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+  background-color: $gray-500;
+  border-color: $gray-500;
+}
+
+/* Navbar */
+
+.navbar {
+  opacity: 0.3;
+  background-color: #000000;
+  padding: 30px 0px;
+}
+
+.nav-item {
+  padding: 0px 50px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+ .navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+  width: 4.5em;
+  height: 2.5em;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid $white;
+  margin: 5px 10px;
+}
+
+.navbar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $white !important;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+.nav-link {
+  color: $white !important;
+  font-family: $font-family;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+.nav-link:hover {
+  color: $white;
+  text-decoration: underline;
+}
+
+body, html {
+
+}
+
+main {
+  section {
+    height: 100%;
+    display: grid;
+  }
+   .text-image {
+     margin: auto;
+      h1 {
+        font-size: 50px;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+   }
+}
+
+form {
+  .form-control {
+    box-sizing: border-box;
+    height: 37px;
+    padding: 25.5px;
+    margin: 5px 0px;
+    border: 1px solid #E6E7E9;
+     h6 {
+      color: #6A6B6D;
+      font-family: "Noto Sans";
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 19px;
+      color: #E6E7E9;
+     }
+  }
+  label {
+  color: #5F6062;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 15px;
+  grid-template-areas:
+  "dropOne dropTwo dropThree dropFour dropFive";
+}
+
+.dropOne, .dropTwo, .dropThree, .dropFour, .dropFive {
+  grid-area: dropOne, dropTwo, dropThree, dropFour, dropFive;
+  background-image: url(../img/drop.svg);
+  height: 30px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tear-box {
+  padding: 30px 14px;
+  border: 1px solid #E6E7E9;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+
+.tear-box:hover {
+  cursor: pointer;
+  background-color: #DE886A;
+  border-radius: 1px solid #E6E7E9;
+  .dropOne, .dropTwo, .dropThree, .dropFour {
+    filter: contrast(200%) brightness(200%) sepia(30%) grayscale(100%);
+  }
+}
